@@ -18,7 +18,7 @@ const StyledHeader = styled.header`
   font-size: 14px;
   background-color: #fff;
   box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, 0.2);
-  position: relative:
+  position: relative;
   z-index: 1000;
   a {
     text-decoration: none;

@@ -88,9 +88,8 @@ const StyledCanvas = styled.canvas`
   height: 100%;
   width: 100%;
   position: absolute;
+  z-index: -1000;
 `
-
-const VERTEX_COUNT = 2000
 
 function createShader(gl: WebGLRenderingContext): WebGLProgram | void {
   const vs = `
