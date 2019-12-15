@@ -6,14 +6,18 @@
  */
 
 import React, { ReactElement } from "react"
-
 import { useStaticQuery, graphql } from "gatsby"
+import styled from "styled-components"
 
 import Header from "./header"
 
 type Props = {
   children: ReactElement | ReactElement[]
 }
+
+const Main = styled.main`
+  overflow: hidden;
+`
 
 const Layout = ({ children }: Props): ReactElement => {
   const data = useStaticQuery(graphql`
@@ -30,7 +34,7 @@ const Layout = ({ children }: Props): ReactElement => {
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
       <div>
-        <main>{children}</main>
+        <Main>{children}</Main>
         <footer>
           © {new Date().getFullYear()}, Built with
           {` `}
