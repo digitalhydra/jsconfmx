@@ -8,7 +8,7 @@ type Props = {}
 const StyledHeader = styled.header`
   display: flex;
   height: 60px;
-
+  margin: none;
   justify-content: space-around;
   align-items: center;
   text-transform: uppercase;
@@ -18,7 +18,8 @@ const StyledHeader = styled.header`
   font-size: 14px;
   background-color: #fff;
   box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, 0.2);
-
+  position: relative:
+  z-index: 1000;
   a {
     text-decoration: none;
     color: inherit;
@@ -55,9 +56,9 @@ const I18n = styled.div`
     width: 1px;
     height: 3rem;
     opacity: 0.36;
-    margin: 0 0.7rem 0 0.7rem;
+    margin: 0 0.9rem 0 0.9rem;
     background-color: #5f2265;
-    transform: rotate(20deg);
+    transform: rotate(15deg);
   }
 `
 

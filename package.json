@@ -14,12 +14,15 @@
     "gatsby-plugin-typescript": "^2.1.20",
     "gatsby-source-filesystem": "^2.1.39",
     "gatsby-transformer-sharp": "^2.3.6",
+    "gl-matrix": "^3.1.0",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "simplex-noise": "^2.4.0"
   },
   "devDependencies": {
+    "@types/gl-matrix": "^2.4.5",
     "@types/node": "^12.12.14",
     "@types/react": "^16.9.15",
     "@types/react-dom": "^16.9.4",

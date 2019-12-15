@@ -1252,6 +1252,11 @@
   resolved "https://registry.yarnpkg.com/@types/get-port/-/get-port-0.0.4.tgz#eb6bb7423d9f888b632660dc7d2fd3e69a35643e"
   integrity sha1-62u3Qj2fiItjJmDcfS/T5po1ZD4=
 
+"@types/gl-matrix@^2.4.5":
+  version "2.4.5"
+  resolved "https://registry.yarnpkg.com/@types/gl-matrix/-/gl-matrix-2.4.5.tgz#80630d88fb74ff8897a2a2855a8a700e6ee19d3e"
+  integrity sha512-0L8Mq1+oaIW0oVzGUDbSW+HnTjCNb4CmoIQE5BkoHt/A7x20z0MJ1PnwfH3atty/vbWLGgvJwVu2Mz3SKFiEFw==
+
 "@types/glob@^5.0.30":
   version "5.0.36"
   resolved "https://registry.yarnpkg.com/@types/glob/-/glob-5.0.36.tgz#0c80a9c8664fc7d19781de229f287077fd622cb2"
@@ -5778,6 +5783,11 @@ github-from-package@0.0.0:
   version "0.0.0"
   resolved "https://registry.yarnpkg.com/github-from-package/-/github-from-package-0.0.0.tgz#97fb5d96bfde8973313f20e8288ef9a167fa64ce"
   integrity sha1-l/tdlr/eiXMxPyDoKI75oWf6ZM4=
+
+gl-matrix@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/gl-matrix/-/gl-matrix-3.1.0.tgz#f5b2de17d8fed95a79e5025b10cded0ab9ccbed0"
+  integrity sha512-526NA+3EA+ztAQi0IZpSWiM0fyQXIp7IbRvfJ4wS/TjjQD0uv0fVybXwwqqSOlq33UckivI0yMDlVtboWm3k7A==
 
 glob-parent@^3.1.0:
   version "3.1.0"
@@ -10719,6 +10729,11 @@ simple-swizzle@^0.2.2:
   integrity sha1-pNprY1/8zMoz9w0Xy5JZLeleVXo=
   dependencies:
     is-arrayish "^0.3.1"
+
+simplex-noise@^2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/simplex-noise/-/simplex-noise-2.4.0.tgz#81b3458fb22dccc3bc8dd9a977c73797f86f523a"
+  integrity sha512-OjyDWm/QZjVbMrPxDVi9b2as+SeNn9EBXlrWVRlFW+TSyWMSXouDryXkQN0vf5YP+QZKobrmkvx1eQYPLtuqfw==
 
 sisteransi@^1.0.3:
   version "1.0.4"
