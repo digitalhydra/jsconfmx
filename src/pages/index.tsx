@@ -5,6 +5,7 @@ import SEO from "../components/seo"
 import Hero from "../components/hero"
 import Sombrero from "../components/sombrero"
 import WorldCloud from "../components/worldcloud"
+import CFP from "../components/cfp"
 
 const IndexPage = (): JSX.Element => (
   <Layout>
@@ -12,6 +13,7 @@ const IndexPage = (): JSX.Element => (
     <Hero />
     <Sombrero />
     <WorldCloud />
+    <CFP />
   </Layout>
 )
 
