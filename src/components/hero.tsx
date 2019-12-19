@@ -185,9 +185,9 @@ const Hero = ({}: Props): JSX.Element => {
     const matrix = mat4.create()
     const draw = (): void => {
       if (!program) return
-      mat4.rotateX(matrix, matrix, -0.002)
-      mat4.rotateY(matrix, matrix, 0.005)
-      mat4.rotateZ(matrix, matrix, 0.005)
+      // mat4.rotateX(matrix, matrix, -0.002)
+      // mat4.rotateY(matrix, matrix, 0.005)
+      // mat4.rotateZ(matrix, matrix, 0.005)
       const transformMatrix = gl.getUniformLocation(program, `transformMatrix`)
       gl.uniformMatrix4fv(transformMatrix, false, matrix)
 
@@ -221,9 +221,9 @@ const Hero = ({}: Props): JSX.Element => {
       <StyledCity />
       <HeroContent>
         <StyledLogo />
-        <MexicoCity>Ciudad de Mexico</MexicoCity>
-        <Date>4 y 5 de mayo, 2020</Date>
-        <CFP>envia una charla</CFP>
+        <MexicoCity>Mexico City</MexicoCity>
+        <Date>May 4 & 5, 2020</Date>
+        <CFP>Submit your talk</CFP>
       </HeroContent>
       <HeroH1>
         <div className="white">JS&nbsp;CONF</div>

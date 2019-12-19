@@ -9,7 +9,7 @@ import CFP from "../components/cfp"
 
 const IndexPage = (): JSX.Element => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="2020" />
     <Hero />
     <Sombrero />
     <WorldCloud />
