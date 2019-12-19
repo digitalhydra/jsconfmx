@@ -1,4 +1,4 @@
-name: Greet Everyone
+name: Push to the internet
 on: [push]
 
 jobs:
