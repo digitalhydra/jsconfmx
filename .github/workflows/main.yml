@@ -31,6 +31,6 @@ jobs:
       - run: yarn install --frozen-lockfile
       - run: yarn build
       - run: |
-          cd build
+          cd public
           ws s3 sync . s3://jsconf.rodikana.net
   
