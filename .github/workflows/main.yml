@@ -3,7 +3,7 @@ on: [push]
 
 jobs:
   build:
-    name: Greeting
+    name: Build Gatsby
     runs-on: ubuntu-latest
     steps:
       - name: get stuff
@@ -32,5 +32,6 @@ jobs:
       - run: yarn build
       - run: |
           cd public
-          ws s3 sync . s3://jsconf.rodikana.net
+          aws s3 sync . s3://jsconf.rodikana.net
+          aws cloudfront create-invalidation --distribution-id E2XLV41DZGWSLO --paths "/*"
   
